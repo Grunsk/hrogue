@@ -1,0 +1,12 @@
+{
+  "name": "hrogue",
+  "version": "0.0.1",
+  "main": "main.js",
+  "private": true,
+  "scripts": {
+    "test": "node compile.js & electron ."
+  },
+  "devDependencies": {
+    "concatenate-files": "^0.1.1"
+  }
+}

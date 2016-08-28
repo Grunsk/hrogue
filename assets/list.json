@@ -1,0 +1,13 @@
+{
+  "json": [],
+  "audio": [
+    {
+      "key": "bgmMainTheme",
+      "src": "assets/audio/music/main-theme.ogg"
+    }
+  ],
+  "images": [
+  ],
+  "texture-atlases": [
+  ]
+}
