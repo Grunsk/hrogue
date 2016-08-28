@@ -4,6 +4,7 @@ Core.start = function() {
   this.initMembers();
   this.initElectron();
   this.initPixi();
+  Input.init();
   Options.generate();
   SaveManager.generate();
 
@@ -31,7 +32,8 @@ Core.initElectronProperties = function() {
 }
 
 Core.initPixi = function() {
-  this.renderer = new PIXI.WebGLRenderer(this.resolution.x, this.resolution.y);
+  // this.renderer = new PIXI.WebGLRenderer(this.resolution.x, this.resolution.y);
+  this.renderer = new PIXI.autoDetectRenderer(this.resolution.x, this.resolution.y);
   document.body.appendChild(this.renderer.view);
   if(this.usingElectron) {
     this.resizeWindow(this.resolution.x, this.resolution.y);

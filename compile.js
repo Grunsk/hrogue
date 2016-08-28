@@ -9,6 +9,10 @@ var data = {
     "src/basic/signal.js",
     "src/basic/animation.js",
 
+    "src/input/input.js",
+    "src/input/input-key.js",
+    "src/input/input-mouse.js",
+
     "src/core.js",
 
     "src/loader/cache.js",
@@ -25,6 +29,14 @@ var data = {
     "src/sprites/base.js",
 
     "src/game-objects/base.js",
+
+    "src/map/map.js",
+    "src/map/layer-base.js",
+    "src/map/layer-tile.js",
+    "src/map/tileset.js",
+    "src/map/tile.js",
+    "src/map/world.js",
+    "src/map/camera.js",
 
     "src/footer.js"
   ],
