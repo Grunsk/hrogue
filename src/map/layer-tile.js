@@ -23,7 +23,7 @@ Layer_Tile.prototype.getIndex = function(position) {
   return (position.x * this.map.width) + position.y;
 }
 
-Layer_Tile.prototype.getPosition(index) {
+Layer_Tile.prototype.getPosition = function(index) {
   if(index < 0 || index > this.map.width * this.map.height) return null;
   return new Point(index % this.map.width, Math.floor(index / this.map.width));
 }
